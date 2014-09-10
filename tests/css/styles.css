@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* FLAG=reset
+ ----------------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+	font-size: inherit;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	outline: none;
+}
+
+/* FLAG=global
+ ----------------------------------------------- */
+body {
+	font-family: Verdana, Geneva, sans-serif;,
+	font-size: 16px;
+}
+h1, h2 {
+	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+h3, h4, h5, h6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1{
+	font-size: 1.4rem;
+}
+h2{
+	font-size: 1.2rem;
+}
+h3{
+	font-size: 1rem;
+}
+ul li,
+ol li {
+	margin-left: 40px;
+}
+#styleOptions {
+	display: table;
+	margin: 1% auto;
+	font-size: 16px;
+	background-color: #333;
+}
+#styleOptions li {
+	display: table-cell;
+	padding: 12px;
+}
+#primary {
+	width: 100%;
+	max-width: 1000px;
+	margin: 1% auto;
+}
+header,
+main,
+footer,
+section {
+	width: 100%;
+	margin: 1% auto;
+	padding: 2%;
+}
+
+header {
+	font-size: 0.8rem;
+	padding: 2%;
+}
+
+
+.admiralAckbar {
+	display: none;
+}

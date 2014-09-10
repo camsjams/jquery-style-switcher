@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* FLAG=global
+----------------------------------------------- */
+body{color:#000; background:#0753b9;}
+a{color:#063;}
+a:hover{color:purple;}
+em{color:#639;}
+strong{color:#03C;}
+
+/* FLAG=containers
+----------------------------------------------- */
+header,
+main,
+footer,
+section {
+	background-color: #36f;
+	border: 1px solid #f0f;
+}

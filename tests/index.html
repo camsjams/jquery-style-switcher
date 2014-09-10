@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>jQuery style switcher demo</title>
+		<link type="text/css" rel="stylesheet" href="css/styles.css" />
+		<link type="text/css" rel="stylesheet" id="jssDefault" href="css/theme1.css" />
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="../jQuery.style.switcher.js"></script>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#styleOptions').styleSwitcher();
+			});
+		</script>
+		<ul id="styleOptions" title="switch styling">
+			<li>
+				<a href="javascript: void(0)" data-theme="theme1">Default</a>
+			</li><li>
+				<a href="javascript: void(0)" data-theme="theme2">Darkness</a>
+			</li><li>
+				<a href="javascript: void(0)" data-theme="theme3">Colorful</a>
+			</li><li>
+				<a href="javascript: void(0)" data-theme="theme4">Large Print</a>
+			</li><li>
+				<a href="javascript: void(0)" data-theme="theme5">Is it a trap?</a>
+			</li>
+		</ul>
+		<div id="primary">
+			<header>
+				<h1>
+					Directions: You can hover over the above links to preview (<strong>which can be disabled</strong>) and then click on the style you like best.
+					<br />
+					<a href="https://github.com/camsjams/jquery-style-switcher/issues">Support</a> | <a href="https://github.com/camsjams/jquery-style-switcher" title="Download Now">Download this plugin</a>
+				</h1>
+			</header>
+			<main>
+				<h1>Jedi Academy</h1>
+				<p>
+					What?! I don't know what you're talking about. I am a member of the Imperial Senate on a diplomatic mission to Alderaan-- Ye-ha! I care. So, what do you think of her, Han? I'm surprised you had the courage to take the responsibility yourself. I want to come with you to Alderaan. There's nothing for me here now. I want to learn the ways of the Force and be a Jedi, like my father before me.
+				</p>
+				<h2>Rebel Mission to Ord Mantell</h2>
+				<p>
+					You mean it controls your actions? Red Five standing by. Red Five standing by. Leave that to me. Send a distress signal, and inform the Senate that all on board were killed. I'm trying not to, kid. Look, I can take you as far as Anchorhead. You can get a transport there to Mos Eisley or wherever you're going.
+				</p>
+				<ul>
+					<li>
+						Dantooine. They're on Dantooine.
+					</li>
+					<li>
+						Red Five standing by.
+					</li>
+					<li>
+						Look, I can take you as far as Anchorhead. You can get a transport there to Mos Eisley or wherever you're going.
+					</li>
+					<li>
+						I want to come with you to Alderaan. There's nothing for me here now. I want to learn the ways of the Force and be a Jedi, like my father before me.
+					</li>
+				</ul>
+				<h3>A New Hope</h3>
+				<p>
+					Escape is not his plan. I must face him, alone. He is here. Escape is not his plan. I must face him, alone.
+				</p>
+				<h4>Attack of the Clones</h4>
+				<p>
+					I suggest you try it again, Luke. This time, let go your conscious self and act on instinct. What!? I find your lack of faith disturbing. He is here.
+				</p>
+				<ol>
+					<li>
+						I have traced the Rebel spies to her. Now she is my only link to finding their secret base.
+					</li>
+					<li>
+						You mean it controls your actions?
+					</li>
+					<li>
+						I suggest you try it again, Luke. This time, let go your conscious self and act on instinct.
+					</li>
+					<li>
+						Dantooine. They're on Dantooine.
+					</li>
+				</ol>
+				<h5>The Force Unleashed</h5>
+				<p>
+					You are a part of the Rebel Alliance and a traitor! Take her away! I have traced the Rebel spies to her. Now she is my only link to finding their secret base. I find your lack of faith disturbing. You mean it controls your actions? You mean it controls your actions? What?!
+				</p>
+			</main>
+			<section>
+				<h1>The Rebel Force</h1>
+				<p>
+					What?! What?! Don't act so surprised, Your Highness. You weren't on any mercy mission this time. Several transmissions were beamed to this ship by Rebel spies. I want to know what happened to the plans they sent you. He is here. Dantooine. They're on Dantooine. I can't get involved! I've got work to do! It's not that I like the Empire, I hate it, but there's nothing I can do about it right now. It's such a long way from here.
+				</p>
+			</section>
+			<footer>
+				<h1>The Clone Wars</h1>
+				<p>
+					Remember, a Jedi can feel the Force flowing through him. Look, I can take you as far as Anchorhead. You can get a transport there to Mos Eisley or wherever you're going. Escape is not his plan. I must face him, alone.
+				</p>
+			</footer>
+		</div>
+		<div class="admiralAckbar">
+			<h4>It's a Trap!</h4>
+			<span style="font-family:Arial, Helvetica, sans-serif;">
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .<br>
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .<br>
+. . . . . . . . . . . . . . . . _,,,-------------------,_ . . . . . . . . . . . . .<br>
+. . . . . . . . . . . . . . ,-‘&nbsp;:&nbsp;:&nbsp;:&nbsp;::::&nbsp;::::&nbsp;::&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:º ‘-, . . . . . . . . . . . .<br>
+. . . . . . . . . . . . .,-‘&nbsp;::&nbsp;:&nbsp;:&nbsp;::::&nbsp;::::&nbsp;::::&nbsp;::::&nbsp;:&nbsp;:&nbsp;:o&nbsp;: ‘-, . . . . . . . . . .<br>
+. . . . . . . . . . . ,-‘&nbsp;::&nbsp;:::&nbsp;::&nbsp;:&nbsp;:&nbsp;::&nbsp;::::&nbsp;::::&nbsp;::&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:O ‘-, . . . . . . . . .<br>
+. . . . . . . . . .,-‘&nbsp;:&nbsp;::&nbsp;::&nbsp;::&nbsp;::&nbsp;::&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;: ,&nbsp;:&nbsp;:&nbsp;:º&nbsp;::::&nbsp;::::&nbsp;::’; . . . . . . . .<br>
+. . . . . . . . .,-‘ / /&nbsp;:&nbsp;::&nbsp;::&nbsp;::&nbsp;::&nbsp;:&nbsp;:&nbsp;::::&nbsp;:::-,&nbsp;;;&nbsp;;;&nbsp;;;&nbsp;;;&nbsp;;;&nbsp;;;&nbsp;;\ . . . . . . . .<br>
+. . . . . . . . /,-‘,’&nbsp;::&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;::&nbsp;::&nbsp;::&nbsp;: ‘-,&nbsp;;;&nbsp;;;&nbsp;;;&nbsp;;;&nbsp;;;&nbsp;;;| . . . . . . .<br>
+. . . . . . . /,’,-‘&nbsp;::&nbsp;::&nbsp;::&nbsp;::&nbsp;::&nbsp;::&nbsp;::&nbsp;:&nbsp;::_,-----,_’-,&nbsp;;;&nbsp;;;&nbsp;;;&nbsp;;; | . . . . . . .<br>
+. . . . . _/&nbsp;:,’&nbsp;:/&nbsp;::&nbsp;::&nbsp;::&nbsp;:&nbsp;:&nbsp;::&nbsp;:: _,-‘/&nbsp;: ,-‘;’-‘’’’’---,&nbsp;;;&nbsp;;;&nbsp;;;,’ . . . . . . . .<br>
+. . . ,-‘ /&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;: ,-‘’’&nbsp;:&nbsp;:&nbsp;:,--‘’&nbsp;:|| /,-‘-‘--‘’’__,’’’ \&nbsp;;;&nbsp;;,-‘ . . . . . . . .<br>
+. . . \&nbsp;:/,,&nbsp;:&nbsp;:&nbsp;: _,-‘ --,,_&nbsp;:&nbsp;: \&nbsp;:\ ||/ /,-‘-‘x###&nbsp;::\ \&nbsp;;;/ . . . . . . . . . .<br>
+. . . . \/ /--‘’’’&nbsp;: \ #\&nbsp;:&nbsp;:\&nbsp;:&nbsp;: \&nbsp;:\ \| |&nbsp;: (O##º&nbsp;:&nbsp;:/ /-‘’ . . . . . . . . . . .<br>
+. . . . /,’____&nbsp;:&nbsp;:\ ‘-#\&nbsp;: \,&nbsp;:&nbsp;:\&nbsp;:\ \ \&nbsp;: ‘-,___,-‘,-`-,, . . . . . . . . . . .<br>
+. . . . ‘ )&nbsp;:&nbsp;:&nbsp;:&nbsp;:’’’’--,,--,,,,,,¯ \ \&nbsp;::&nbsp;::--,,_’’-,,’’’¯&nbsp;:’-&nbsp;:’-, . . . . . . . . .<br>
+. . . . .)&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;: ,,&nbsp;: ‘’’’---------’ \&nbsp;::&nbsp;::&nbsp;::&nbsp;:’’’’’¯&nbsp;:: &nbsp;:,/\ . . . . . . . . .<br>
+. . . . .\,/ /|\\| |&nbsp;:/ /&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;: ,’--,&nbsp;::&nbsp;::&nbsp;::&nbsp;::&nbsp;::,--‘’&nbsp;:,-‘ \ \ . . . . . . . .<br>
+. . . . .\\’|\\ \|/ ‘/ /&nbsp;::&nbsp;:_---,,&nbsp;: , | )’;&nbsp;::&nbsp;::&nbsp;::&nbsp;:,-‘’&nbsp;: ,-‘&nbsp;:&nbsp;:&nbsp;:\ \, . . . . . . .<br>
+. . . ./¯&nbsp;:| \ |\&nbsp;: |/\&nbsp;::&nbsp;::-----,&nbsp;:\/&nbsp;:|/&nbsp;::&nbsp;:: ,-‘’&nbsp;:&nbsp;:,-‘&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;: ‘’-,,_ . . . .<br>
+. . ..|&nbsp;:&nbsp;:&nbsp;:/ ‘’-(,&nbsp;::&nbsp;::&nbsp;:: ‘’’’’--,,,,,’’&nbsp;:: ,-‘’&nbsp;:&nbsp;:,-‘&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:,-‘’’\\ . . . .<br>
+. ,-‘&nbsp;:&nbsp;:&nbsp;: |&nbsp;:&nbsp;: ‘’)&nbsp;:&nbsp;:&nbsp;:¯’’’’---,:&nbsp;: ,--‘’’&nbsp;:&nbsp;:,-‘’&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;: ,-‘&nbsp;:¯’’’’’-,_ .<br>
+./&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:’-,&nbsp;:: |&nbsp;::&nbsp;::&nbsp;:: _,,-‘’’’¯&nbsp;: ,---‘’&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;: /&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:’’-,<br>
+/&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;: -,&nbsp;:¯’’’’’’’’’’’¯&nbsp;:&nbsp;: _,,---’’&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:|&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:<br>
+.&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:¯’’------------’’’&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;: |&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:&nbsp;:<br>
+</span>
+		</div>
+	</body>
+</html>
