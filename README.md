@@ -7,7 +7,7 @@ It also allows users to preview the changes before clicking on their final choic
 * [Live Demo](http://etalx.com/jquery-style-switcher/tests/)
 
 ## Status
-Beta - Version 0.9.1
+Beta RC - Version 0.9.14
 
 ## Platforms / Technologies
 * [JavaScript](http://en.wikipedia.org/wiki/JavaScript)
