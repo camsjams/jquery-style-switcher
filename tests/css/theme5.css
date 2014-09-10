@@ -1,0 +1,23 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* FLAG=global
+----------------------------------------------- */
+body{color:#fff; background:#000;}
+a{color:#F00;}
+a:hover{color:#eee;}
+strong{color:#555;}
+
+/* FLAG=containers
+----------------------------------------------- */
+header,
+main,
+footer,
+section {
+	display: none;
+}
+.admiralAckbar {
+	display: block;
+	width: 430px;
+	margin: 0 auto;
+}

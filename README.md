@@ -4,7 +4,7 @@ Here is a jQuery plugin created to simplify style sheet theme changing.
 
 It also allows users to preview the changes before clicking on their final choice. This plugin is tested for IE6+, Firefox, Safari, Chrome, Opera, and even Android and iPhones! 
 
-* [Live Demo](http://www.immortalwolf.com/demo/jquery-style-switcher/)
+* [Live Demo](http://etalx.com/jquery-style-switcher/tests/)
 
 ## Status
 Beta - Version 0.9.1
