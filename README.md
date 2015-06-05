@@ -34,6 +34,6 @@ Here are the defaults options available in jQuery Style Switcher
 
 > cookie - setting this to null or false will disable cookies
 
-> cookie.expires - set how long the user cookie will last
+> cookie.expires - set how long the user cookie will last (in seconds)
 
 > cookie.isManagingLoad - set whether or not to use jQuery Style Switcher to load the CSS, as opposed to server-side checks
